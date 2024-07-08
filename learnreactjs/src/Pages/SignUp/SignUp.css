@@ -1,0 +1,110 @@
+.sign-up-container {
+    margin-top: 20px;
+  }
+  .sign-up-title {
+    /*font-size: 2em; */
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .sign-up-description {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  .sign-up-form-container {
+    padding: 15px;
+    padding-bottom: 0px;
+  }
+  /* label color */
+  .input-field label {
+    color: #000 !important;
+  }
+  /* label focus color */
+  .input-field input[type="text"]:focus + label {
+    color: #3949ab;
+  }
+  /* label underline focus color */
+  .input-field input[type="text"]:focus {
+    border-bottom: 1px solid #3949ab !important;
+    box-shadow: 0 1px 0 0 #3949ab !important;
+  }
+  .input-field input[type="password"]:focus {
+    border-bottom: 1px solid #3949ab !important;
+    box-shadow: 0 1px 0 0 #3949ab !important;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #3949ab;
+  }
+  .sign-up-or-row {
+    padding: 0px;
+    margin: 0px;
+  }
+  .sign-up-or {
+    font-size: 18px;
+    margin: 20px;
+    color: #666666;
+  }
+  .google-login-row {
+    max-width: 300px;
+  }
+  
+  /* Spinner */
+  .loader,
+  .loader:before,
+  .loader:after {
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: load7 1.8s infinite ease-in-out;
+    animation: load7 1.8s infinite ease-in-out;
+  }
+  .loader {
+    color: #3949ab;
+    font-size: 10px;
+    margin: 40px auto;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    top: 0;
+  }
+  .loader:before {
+    left: -3.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  .loader:after {
+    left: 3.5em;
+  }
+  @-webkit-keyframes load7 {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+      box-shadow: 0 2.5em 0 0;
+    }
+  }
+  @keyframes load7 {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+      box-shadow: 0 2.5em 0 0;
+    }
+  }
+  

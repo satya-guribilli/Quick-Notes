@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "react-notes-e796a",
+    "production": "react-notes-e796a"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

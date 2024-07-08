@@ -1,0 +1,22 @@
+.note-card-modal-button {
+    font-weight: 600;
+  }
+  .card-actions-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @keyframes strike {
+    from {
+      text-decoration-color: transparent;
+    }
+    to {
+      text-decoration-color: auto;
+    }
+  }
+  .strike {
+    text-decoration: line-through;
+    animation: strike 0.5s both;
+  }
+  

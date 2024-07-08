@@ -1,0 +1,107 @@
+.new-note-card {
+    margin-top: 30px;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .new-note-card-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700 !important;
+  }
+  .new-note-card-content {
+    padding-left: 0px !important;
+  }
+  .new-note-description {
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-weight: 400;
+  }
+  .new-note-description-bold {
+    font-weight: 600;
+  }
+  
+  /* Spinner */
+  .loader,
+  .loader:before,
+  .loader:after {
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: load7 1.2s linear infinite;
+    animation: load7 1.2s linear infinite;
+  }
+  .loader {
+    color: #3949ab;
+    font-size: 10px;
+    margin: 40px auto;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    top: 0;
+  }
+  .loader:before {
+    left: -3.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  .loader:after {
+    left: 3.5em;
+  }
+  @-webkit-keyframes load7 {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+      box-shadow: 0 2.5em 0 0;
+    }
+  }
+  @keyframes load7 {
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+      box-shadow: 0 2.5em 0 0;
+    }
+  }
+  .dropzone-container {
+    width: "100%";
+    cursor: pointer;
+    min-height: 200px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='black' stroke-width='4' stroke-dasharray='2%2c 8' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .dropzone-text {
+    min-width: "100%";
+    min-height: 200px;
+  }
+  .dropzone {
+    min-width: "100%";
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: "1rem";
+    font-weight: 600;
+  }
+  .image-error {
+    text-align: center;
+    padding: 10px;
+  }
+  
