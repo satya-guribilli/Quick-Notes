@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { isLoaded } from "react-redux-firebase";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
-import Demo from "./Pages/Demo/Demo";
+import Demo from "./Pages/Demo";
 import Notes from "./Pages/Notes/Notes";
 import SignIn from "./Pages/SignIn/SignIn";
 import SignUp from "./Pages/SignUp/SignUp";

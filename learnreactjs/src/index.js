@@ -43,12 +43,12 @@ const middlewares = [thunk.withExtraArgument({ getFirebase, getFirestore })];
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD0LFI4rXV3Q83TU1Onu0VAG7FpqEYAkhQ",
-  authDomain: "react-notes-e796a.firebaseapp.com",
-  projectId: "react-notes-e796a",
-  storageBucket: "react-notes-e796a.appspot.com",
-  messagingSenderId: "137546639145",
-  appId: "1:137546639145:web:b9bddb7386d27330383938"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 
